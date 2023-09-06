@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h3> ** 도서 등록 화면 **</h3>
+<form>
+<table border="1">
+<tr>
+<td>분류</td>
+<td><input type="radio" name ="group" value="문학" >문학
+	<input type="radio" name ="group" value="외국어" >외국어
+	<input type="radio" name ="group" value="컴퓨터" checked="checked" >컴퓨터 </td>
+</tr>
+<tr>
+<td>제목</td>
+<td><input type="text" name="name"></td>
+</tr>
+
+<tr>
+<td>가격</td>
+<td><input type="number" name="price">원</td>
+</tr>
+
+<tr>
+<td>수량</td>
+<td><input type="number" name="get">권</td>
+</tr>
+
+<tr>
+<td>저자</td>
+<td><input type="text" name="BK"></td>
+</tr>
+
+<tr>
+<td>출판사</td>
+<td><input type="text" name="BC"></td>
+</tr>
+
+<tr>
+<td>출판일</td>
+<td><input type="date" name="day"></td>
+</tr>
+<tr>
+<td>주제어</td>
+<td><input type="checkbox" name="subject" value="money">재테크
+	<input type="checkbox" name="subject" value="jungbo">신기술
+	<input type="checkbox" name="subject" value="heal">힐링
+	<input type="checkbox" name="subject" value="intro">취미
+	<input type="checkbox" name="subject" value="art">미술
+</td>
+</tr>
+<tr>
+<td>내용</td>
+<td><textarea cols= 60 rows=5 placeholder = "좋습니다"></textarea></td>
+</tr>
+<tr>
+<td colspan="2" align ="center">
+<input type = "submit" value="등록">&nbsp;&nbsp;
+<input type = "reset" value = "다시 작성">
+</tr>
+
+</table>
+</form>
+</body>
+</html>
